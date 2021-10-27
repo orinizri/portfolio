@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ori Nizri Tal - Resume</title>
     <link rel="stylesheet" href="/css/portfolio.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/5c4607dc13.js"
       crossorigin="anonymous"
@@ -15,48 +17,54 @@
   </head>
   
   <body>
-    <div class="main-presentation">
-    <h2><em>Hello, world! <br>My name is Ori</em></h2>
-    </div>
-    <div id="picture">
-    <br><img src="https://media-exp1.licdn.com/dms/image/C4D03AQFFxzSImLnEyA/profile-displayphoto-shrink_800_800/0/1628625236186?e=1640822400&v=beta&t=LCSz-3sCMYvtWmcwwX3DarWTbKM_N6Bmc-CggljgUYw" alt="profile picture" />
-    </div>
-    <div id="contact"><br>
-      <h2>Contact</h2>
-      <ul>
-        <li>Email: ori.nizri.tal@gmail.com</li>
-        <li>Phone: 054-6826995</li>
-        <li>Linkedin: 
-          <a href="https://www.linkedin.com/in/ori-nizri-tal/"><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></a>
-        </li>
-      </ul>
+    <div class="container">
+      <div class="main-presentation">
+        <h1><em>Hello, world! <br>My name is Ori</em></h1>
+      </div>
+      <div id="picture">
+      <br><img src="https://media-exp1.licdn.com/dms/image/C4D03AQFFxzSImLnEyA/profile-displayphoto-shrink_800_800/0/1628625236186?e=1640822400&v=beta&t=LCSz-3sCMYvtWmcwwX3DarWTbKM_N6Bmc-CggljgUYw" alt="profile picture" />
+      </div>
+      <div class="contact"><br>
+        <table>
+          <thead>
+            <th><h2>Contact</h2></th>
+          </thead>
+          <tbody>
+            <tr><td>ori.nizri.tal@gmail.com</td></tr>
+            <tr><td>Phone: 054-6826995</tr></td></tr>
+            <tr><td>Linkedin:
+              <a href="https://www.linkedin.com/in/ori-nizri-tal/"><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></a>
+            </td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="clr"></div>
+    <main>
+      <p>
+        I am a junior programmer with also a demonstrated experience as researcher in various laboratories in Higher Education
+        industry. <br> I own a strong research professional with a Master of Science – M.Sc. focused on Cognitive
+        Psychology and Human Factors Engineering from the Technion. <br> My thesis research combines Behavioral
+        Economics and Meta-Cognition research literatures regarding external search and internal confidence
+        judgments and investigates stopping rules. <br> Nowadays, I am learning Fullstack development in Appleseeds' bootcamp. I'm learning HTML, CSS, JavaScript, Node.js and React. <br>
+        To conclude, I have the spirit of a problem-solver. I love working in an organized and a systematic manner and to solve complex problems with self-inspection and validation.
+        <br> My educational background also includes extended familiarity with the following fields: Decision-making,
+        UX, human factors engineering, intermediate machine learning, Consumer Behaviors, Meta-cognition,
+        Behavioral Economics and Marketing, Social and Organizational Psychology including Team Management.
       </p>
-  </div>
-  <div class="background">
-    <p>
-      I am a junior programmer with also a demonstrated experience as researcher in various laboratories in Higher Education
-      industry. <br> I own a strong research professional with a Master of Science – M.Sc. focused on Cognitive
-      Psychology and Human Factors Engineering from the Technion. <br> My thesis research combines Behavioral
-      Economics and Meta-Cognition research literatures regarding external search and internal confidence
-      judgments and investigates stopping rules. <br> Nowadays, I am learning Fullstack development in Appleseeds' bootcamp. I'm learning HTML, CSS, JavaScript, Node.js and React. <br>
-      To conclude, I have the spirit of a problem-solver. I love working in an organized and a systematic manner and to solve complex problems with self-inspection and validation.
-      <br> My educational background also includes extended familiarity with the following fields: Decision-making,
-      UX, human factors engineering, intermediate machine learning, Consumer Behaviors, Meta-cognition,
-      Behavioral Economics and Marketing, Social and Organizational Psychology including Team Management.
-    </p>
-  </div>
+    </main>
 
-    <div id="feedback">
-      <label for="feedback">Send me a message:</label><br>
-      <textarea name="text" id="text" cols="70" rows="5" placeholder="Write here."></textarea>
+      <div class="feedback">
+        <label for="text">Send me a message:</label><br>
+        <textarea name="text" id="text" cols="70" rows="3" placeholder="Write here."></textarea><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
 
-    
+
+    <div id="footer">
+      <br>
+      <p>Copyright Ori Nizri Tal&copy;, 2021.</p>
     </div>
-
-
-  <div id="footer">
-    <br>
-    <p>Copyright Ori Nizri Tal&copy;, 2021.</p>
-  </div>
+    </div>
   </body>
 </html>
